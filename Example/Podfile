@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RCHealthEvaluationComponet_Example' do
+  pod 'RCHealthEvaluationComponet', :path => '../'
+
+  target 'RCHealthEvaluationComponet_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
