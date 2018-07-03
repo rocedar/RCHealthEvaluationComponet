@@ -7,12 +7,23 @@
 //
 
 #import "RCAppDelegate.h"
+#import <RCBaseComponent/RCSDK.h>
+
 
 @implementation RCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    //SDK 初始化
+    [[RCSDK shareSDK] initWithAppid:@"101"
+                             appkey:@"bbd97dde455a76880c177b43"
+                              token:@"a0c3e71f51301264dc67f20e8a59c9f3"
+                     invalidHandler:^{
+                         //更新token
+                         //[RCSDK setToken:@"a0c3e71f51301264dc67f20e8a59c9f3"];
+                     }];
+    //    RCBaseConfigInstance.rc_theme_deep_color = [UIColor redColor];  //颜色配置 其他配置类似
     return YES;
 }
 

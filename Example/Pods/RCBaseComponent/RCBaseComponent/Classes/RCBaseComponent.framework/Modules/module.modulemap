@@ -1,0 +1,6 @@
+framework module RCBaseComponent {
+  umbrella header "RCBaseComponent.h"
+
+  export *
+  module * { export * }
+}

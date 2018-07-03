@@ -1,0 +1,46 @@
+{
+  "name": "RCHealthEvaluationComponet",
+  "version": "0.1.0",
+  "summary": "RCHealthEvaluationComponet.",
+  "homepage": "https://github.com/rocedar/RCHealthEvaluationComponet",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wutengwei": "wutengwei@rocedar.com"
+  },
+  "source": {
+    "git": "https://github.com/rocedar/RCHealthEvaluationComponet.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "resources": "RCHealthEvaluationComponet/Classes/RCHealthEvaluationComponet.bundle",
+  "ios": {
+    "vendored_frameworks": "RCHealthEvaluationComponet/Classes/RCHealthEvaluationComponet.framework"
+  },
+  "dependencies": {
+    "RCBaseComponent": [
+
+    ],
+    "SDWebImage": [
+      "4.0.0"
+    ],
+    "IQKeyboardManager": [
+      "~> 4.0.7"
+    ],
+    "Masonry": [
+      "~> 1.0.1"
+    ],
+    "MJRefresh": [
+
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "MobileCoreServices",
+    "SystemConfiguration"
+  ]
+}

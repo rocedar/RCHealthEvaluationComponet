@@ -1,0 +1,6 @@
+framework module Pods_RCHealthEvaluationComponet_Tests {
+  umbrella header "Pods-RCHealthEvaluationComponet_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

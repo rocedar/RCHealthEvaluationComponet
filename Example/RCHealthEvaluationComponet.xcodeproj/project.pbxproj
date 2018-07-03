@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C84567E9F1A6F024E6F9D9B /* Pods_RCHealthEvaluationComponet_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C6155A944AF4BC137BCEA18 /* Pods_RCHealthEvaluationComponet_Example.framework */; };
+		470C3889C8D959A0A20767FE /* libPods-RCHealthEvaluationComponet_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FEEEC3D342E47616F367432A /* libPods-RCHealthEvaluationComponet_Tests.a */; };
+		519DF5DF4A74C2119358CE47 /* libPods-RCHealthEvaluationComponet_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DE959AEF806EA6FB1462D71 /* libPods-RCHealthEvaluationComponet_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +24,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		ACDD0FFC2B21037E41CAA054 /* Pods_RCHealthEvaluationComponet_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A94FF69F7E4A155B2C30A987 /* Pods_RCHealthEvaluationComponet_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4D554DF14418AE792B1BFAA4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4D554DF14418AE792B1BFAA4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		528CC6C0C7930A6873759BE7 /* Pods-RCHealthEvaluationComponet_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCHealthEvaluationComponet_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RCHealthEvaluationComponet_Tests/Pods-RCHealthEvaluationComponet_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* RCHealthEvaluationComponet_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCHealthEvaluationComponet_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,14 +59,14 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		75A28C218AFCE18F1F49D3FE /* RCHealthEvaluationComponet.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RCHealthEvaluationComponet.podspec; path = ../RCHealthEvaluationComponet.podspec; sourceTree = "<group>"; };
-		7C6155A944AF4BC137BCEA18 /* Pods_RCHealthEvaluationComponet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RCHealthEvaluationComponet_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		81DF5DE19A08BE5B9111F90B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		75A28C218AFCE18F1F49D3FE /* RCHealthEvaluationComponet.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RCHealthEvaluationComponet.podspec; path = ../RCHealthEvaluationComponet.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		81DF5DE19A08BE5B9111F90B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87B1CE7523696EF7832CBF12 /* Pods-RCHealthEvaluationComponet_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCHealthEvaluationComponet_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RCHealthEvaluationComponet_Tests/Pods-RCHealthEvaluationComponet_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A94FF69F7E4A155B2C30A987 /* Pods_RCHealthEvaluationComponet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RCHealthEvaluationComponet_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DE959AEF806EA6FB1462D71 /* libPods-RCHealthEvaluationComponet_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RCHealthEvaluationComponet_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD58433A926E693A859A660C /* Pods-RCHealthEvaluationComponet_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCHealthEvaluationComponet_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RCHealthEvaluationComponet_Example/Pods-RCHealthEvaluationComponet_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		ECBBD2DA46D1332BD013DB31 /* Pods-RCHealthEvaluationComponet_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCHealthEvaluationComponet_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RCHealthEvaluationComponet_Example/Pods-RCHealthEvaluationComponet_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FEEEC3D342E47616F367432A /* libPods-RCHealthEvaluationComponet_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RCHealthEvaluationComponet_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				0C84567E9F1A6F024E6F9D9B /* Pods_RCHealthEvaluationComponet_Example.framework in Frameworks */,
+				519DF5DF4A74C2119358CE47 /* libPods-RCHealthEvaluationComponet_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				ACDD0FFC2B21037E41CAA054 /* Pods_RCHealthEvaluationComponet_Tests.framework in Frameworks */,
+				470C3889C8D959A0A20767FE /* libPods-RCHealthEvaluationComponet_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				7C6155A944AF4BC137BCEA18 /* Pods_RCHealthEvaluationComponet_Example.framework */,
-				A94FF69F7E4A155B2C30A987 /* Pods_RCHealthEvaluationComponet_Tests.framework */,
+				8DE959AEF806EA6FB1462D71 /* libPods-RCHealthEvaluationComponet_Example.a */,
+				FEEEC3D342E47616F367432A /* libPods-RCHealthEvaluationComponet_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				3137B199417CC4E8F9F0EBDD /* [CP] Embed Pods Frameworks */,
+				158E618988EF8FA0A5E5CA73 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -294,22 +294,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3137B199417CC4E8F9F0EBDD /* [CP] Embed Pods Frameworks */ = {
+		158E618988EF8FA0A5E5CA73 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-RCHealthEvaluationComponet_Example/Pods-RCHealthEvaluationComponet_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/RCHealthEvaluationComponet/RCHealthEvaluationComponet.framework",
+				"${SRCROOT}/Pods/Target Support Files/Pods-RCHealthEvaluationComponet_Example/Pods-RCHealthEvaluationComponet_Example-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/RCBaseComponent/RCBaseComponent/Classes/RCBaseComponent.bundle",
+				"${PODS_ROOT}/../../RCHealthEvaluationComponet/Classes/RCHealthEvaluationComponet.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCHealthEvaluationComponet.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RCBaseComponent.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RCHealthEvaluationComponet.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RCHealthEvaluationComponet_Example/Pods-RCHealthEvaluationComponet_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RCHealthEvaluationComponet_Example/Pods-RCHealthEvaluationComponet_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4A5D781D8197CB5679CC5E2C /* [CP] Check Pods Manifest.lock */ = {
@@ -485,6 +493,7 @@
 			baseConfigurationReference = AD58433A926E693A859A660C /* Pods-RCHealthEvaluationComponet_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RCHealthEvaluationComponet/RCHealthEvaluationComponet-Prefix.pch";
 				INFOPLIST_FILE = "RCHealthEvaluationComponet/RCHealthEvaluationComponet-Info.plist";
@@ -500,6 +509,7 @@
 			baseConfigurationReference = ECBBD2DA46D1332BD013DB31 /* Pods-RCHealthEvaluationComponet_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RCHealthEvaluationComponet/RCHealthEvaluationComponet-Prefix.pch";
 				INFOPLIST_FILE = "RCHealthEvaluationComponet/RCHealthEvaluationComponet-Info.plist";

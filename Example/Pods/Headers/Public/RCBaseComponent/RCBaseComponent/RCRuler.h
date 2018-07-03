@@ -1,0 +1,1 @@
+../../../../RCBaseComponent/RCBaseComponent/Classes/RCBaseComponent.framework/Versions/A/Headers/RCRuler.h

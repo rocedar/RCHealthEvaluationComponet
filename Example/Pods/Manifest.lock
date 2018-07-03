@@ -1,0 +1,68 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - IQKeyboardManager (4.0.13)
+  - Masonry (1.0.2)
+  - MJExtension (3.0.15.1)
+  - MJRefresh (3.1.15.3)
+  - RCBaseComponent (0.2.0):
+    - AFNetworking
+    - MJExtension
+    - SVProgressHUD
+  - RCHealthEvaluationComponet (0.1.0):
+    - IQKeyboardManager (~> 4.0.7)
+    - Masonry (~> 1.0.1)
+    - MJRefresh
+    - RCBaseComponent
+    - SDWebImage (= 4.0.0)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - RCHealthEvaluationComponet (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - IQKeyboardManager
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - SDWebImage
+    - SVProgressHUD
+  https://github.com/rocedar/RocedarPodSpecs.git:
+    - RCBaseComponent
+
+EXTERNAL SOURCES:
+  RCHealthEvaluationComponet:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  IQKeyboardManager: 8eab4d8111418414619d1df8e4779ce5d0f8d7e2
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  RCBaseComponent: 3c83638c241c74c211102ec4e030dabbd7ad1819
+  RCHealthEvaluationComponet: f320e62de9bed7a90772935e3ffea57cf4f3d8fe
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 3ba66153df0ba8e7f5c58499df53118bf718c1f4
+
+COCOAPODS: 1.5.2
