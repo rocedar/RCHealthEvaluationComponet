@@ -17,16 +17,16 @@ PODS:
   - IQKeyboardManager (4.0.13)
   - Masonry (1.0.2)
   - MJExtension (3.0.15.1)
-  - MJRefresh (3.1.15.3)
-  - RCBaseComponent (0.2.0):
+  - MJRefresh (3.1.0)
+  - RCBaseComponent (0.2.3):
     - AFNetworking
     - MJExtension
     - SVProgressHUD
-  - RCHealthEvaluationComponet (0.1.0):
+  - RCHealthEvaluationComponet (0.1.1):
     - IQKeyboardManager (~> 4.0.7)
     - Masonry (~> 1.0.1)
-    - MJRefresh
-    - RCBaseComponent
+    - MJRefresh (= 3.1.0)
+    - RCBaseComponent (= 0.2.3)
     - SDWebImage (= 4.0.0)
   - SDWebImage (4.0.0):
     - SDWebImage/Core (= 4.0.0)
@@ -57,9 +57,9 @@ SPEC CHECKSUMS:
   IQKeyboardManager: 8eab4d8111418414619d1df8e4779ce5d0f8d7e2
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
-  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
-  RCBaseComponent: 3c83638c241c74c211102ec4e030dabbd7ad1819
-  RCHealthEvaluationComponet: f320e62de9bed7a90772935e3ffea57cf4f3d8fe
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  RCBaseComponent: d60a2eea1edfc8ef211b0e148b2c5cff9b3662c5
+  RCHealthEvaluationComponet: 89454461f05ae32032e5f80b4f87b531e6f38808
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 

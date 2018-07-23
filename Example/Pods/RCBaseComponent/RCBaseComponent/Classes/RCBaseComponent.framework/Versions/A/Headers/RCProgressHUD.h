@@ -1,14 +1,13 @@
 //
-//  SVProgressHUD+RCHUD.h
-//  TestSVP
+//  RCProgressHUD.h
+//  RCBaseComponent
 //
-//  Created by wtw on 2018/6/10.
-//  Copyright © 2018年 rocedar. All rights reserved.
+//  Created by wtw on 2018/7/17.
 //
 
-#import "SVProgressHUD.h"
+#import <Foundation/Foundation.h>
 
-@interface SVProgressHUD (RCHUD)
+@interface RCProgressHUD : NSObject
 
 + (void)showGifHUD;
 + (void)dismissGifHUD;
@@ -19,4 +18,3 @@
 + (void)showInfoHUDWithStatus:(NSString *)status;
 
 @end
-
