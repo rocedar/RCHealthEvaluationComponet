@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.resource = 'RCHealthEvaluationComponet/Classes/RCHealthEvaluationComponet.bundle'
   s.ios.vendored_frameworks = 'RCHealthEvaluationComponet/Classes/RCHealthEvaluationComponet.framework'
   
-  s.dependency 'RCBaseComponent','0.2.3'
+  s.dependency 'RCBaseComponent'
   s.dependency 'SDWebImage','4.0.0'
   s.dependency 'IQKeyboardManager', '~> 4.0.7'
   s.dependency 'Masonry', '~> 1.0.1'
