@@ -16,6 +16,7 @@
 {
     // Override point for customization after application launch.
     //SDK 初始化
+//    [RCSDK setDebug:YES];  //deug 模式下开启
     [[RCSDK shareSDK] initWithAppid:@"101"
                              appkey:@"bbd97dde455a76880c177b43"
                               token:@"a0c3e71f51301264dc67f20e8a59c9f3"
