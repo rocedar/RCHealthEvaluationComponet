@@ -22,11 +22,11 @@ PODS:
     - AFNetworking
     - MJExtension
     - SVProgressHUD
-  - RCHealthEvaluationComponet (0.1.1):
+  - RCHealthEvaluationComponet (0.1.2):
     - IQKeyboardManager (~> 4.0.7)
     - Masonry (~> 1.0.1)
     - MJRefresh (= 3.1.0)
-    - RCBaseComponent (= 0.2.3)
+    - RCBaseComponent
     - SDWebImage (= 4.0.0)
   - SDWebImage (4.0.0):
     - SDWebImage/Core (= 4.0.0)
@@ -59,7 +59,7 @@ SPEC CHECKSUMS:
   MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
   MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
   RCBaseComponent: d60a2eea1edfc8ef211b0e148b2c5cff9b3662c5
-  RCHealthEvaluationComponet: 89454461f05ae32032e5f80b4f87b531e6f38808
+  RCHealthEvaluationComponet: 58be92774e48c520479bfdaed9dca213e849ad1b
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 

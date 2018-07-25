@@ -1,6 +1,6 @@
 {
   "name": "RCHealthEvaluationComponet",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "RCHealthEvaluationComponet.",
   "homepage": "https://github.com/rocedar/RCHealthEvaluationComponet",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/rocedar/RCHealthEvaluationComponet.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"
@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "RCBaseComponent": [
-      "0.2.3"
+
     ],
     "SDWebImage": [
       "4.0.0"
