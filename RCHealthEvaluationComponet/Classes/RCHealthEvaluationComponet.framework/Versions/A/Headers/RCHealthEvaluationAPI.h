@@ -57,4 +57,14 @@ typedef void(^RCFailureHandler)(NSError *error);
 + (void)getQuestionResultWithQuestionnaireId:(NSString *)questionnaireid
                               successHandler:(RCSuccessHandler)successHandler
                                 errorHandler:(RCFailureHandler)errorHandler;
+
+/**
+ 家庭医生服务权限
+ 
+ @param successHandler 成功回调
+ @param errorHandler 失败回调
+ */
++ (void)fetchDocotrServeStatusWithDeviceNo:(NSString *)deviceNo
+                            successHandler:(RCSuccessHandler)successHandler
+                              errorHandler:(RCFailureHandler)errorHandler;
 @end

@@ -8,5 +8,5 @@
 #import <UIKit/UIKit.h>
 
 @interface RCHealthEvalutionFooter : UIView
-
+@property (nonatomic,strong) UIButton *fetchBtn;
 @end
