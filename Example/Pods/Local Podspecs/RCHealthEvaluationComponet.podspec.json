@@ -1,6 +1,6 @@
 {
   "name": "RCHealthEvaluationComponet",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "summary": "RCHealthEvaluationComponet.",
   "homepage": "https://github.com/rocedar/RCHealthEvaluationComponet",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/rocedar/RCHealthEvaluationComponet.git",
-    "tag": "0.1.5"
+    "tag": "0.1.6"
   },
   "platforms": {
     "ios": "8.0"
@@ -24,18 +24,6 @@
   "dependencies": {
     "RCBaseComponent": [
 
-    ],
-    "SDWebImage": [
-      "4.0.0"
-    ],
-    "IQKeyboardManager": [
-      "~> 4.0.7"
-    ],
-    "Masonry": [
-      "~> 1.0.1"
-    ],
-    "MJRefresh": [
-      "3.1.0"
     ]
   },
   "frameworks": [

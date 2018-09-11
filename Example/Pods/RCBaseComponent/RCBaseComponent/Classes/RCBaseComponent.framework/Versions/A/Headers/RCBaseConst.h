@@ -20,6 +20,11 @@ UIKIT_EXTERN NSInteger const RCNavItemFontSize;    // 导航栏Item字号
 UIKIT_EXTERN NSString *const P_VERSION;            //平台版本号
 UIKIT_EXTERN NSString *const P_SDK_SECRET;         //平台SDK版本标识
 
+/** UPYUN 地址 */
+UIKIT_EXTERN NSString *const RCUpYUNUrl;
+UIKIT_EXTERN NSString *const RCDEFAULT_BUCKET;
+UIKIT_EXTERN NSString *const RCDEFAULT_PASSCODE;
+
 #define WeakSelf __weak typeof(self) weakSelf = self;  // 弱引用
 
 //获取屏幕宽/高

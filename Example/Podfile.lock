@@ -14,23 +14,25 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - IQKeyboardManager (4.0.13)
-  - Masonry (1.0.2)
+  - CYLTableViewPlaceHolder (1.0.9)
+  - IQKeyboardManager (6.1.1)
+  - Masonry (1.1.0)
   - MJExtension (3.0.15.1)
-  - MJRefresh (3.1.0)
-  - RCBaseComponent (0.2.3):
+  - MJRefresh (3.1.15.7)
+  - RCBaseComponent (0.2.8):
     - AFNetworking
+    - CYLTableViewPlaceHolder
+    - IQKeyboardManager
+    - Masonry
     - MJExtension
+    - MJRefresh
+    - SDWebImage
     - SVProgressHUD
-  - RCHealthEvaluationComponet (0.1.5):
-    - IQKeyboardManager (~> 4.0.7)
-    - Masonry (~> 1.0.1)
-    - MJRefresh (= 3.1.0)
+  - RCHealthEvaluationComponet (0.1.6):
     - RCBaseComponent
-    - SDWebImage (= 4.0.0)
-  - SDWebImage (4.0.0):
-    - SDWebImage/Core (= 4.0.0)
-  - SDWebImage/Core (4.0.0)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
   - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
@@ -39,6 +41,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - CYLTableViewPlaceHolder
     - IQKeyboardManager
     - Masonry
     - MJExtension
@@ -54,13 +57,14 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  IQKeyboardManager: 8eab4d8111418414619d1df8e4779ce5d0f8d7e2
-  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  CYLTableViewPlaceHolder: 678e070180a24e2f241adc7830d5d7f5e2abbaa5
+  IQKeyboardManager: 79c57795f5c2408d259d37b9da2ed07efcbb5225
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
-  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
-  RCBaseComponent: d60a2eea1edfc8ef211b0e148b2c5cff9b3662c5
-  RCHealthEvaluationComponet: 244ab4332614e6e5336da8d8199aa7e86d17e5de
-  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  RCBaseComponent: 958c3d34a46f6fd086454467a6b6631b38c5b694
+  RCHealthEvaluationComponet: 5798a55fe2c7c74048e797c68baa0746ae1e777d
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
 PODFILE CHECKSUM: 3ba66153df0ba8e7f5c58499df53118bf718c1f4
